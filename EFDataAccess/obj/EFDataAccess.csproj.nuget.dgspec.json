@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\Repos\\WorkTimeRegistration\\WorkTimeRegistration\\WorkTimeRegistration.csproj": {}
+    "D:\\Code\\Repos\\WorkTimeRegistration\\EFDataAccess\\EFDataAccess.csproj": {}
   },
   "projects": {
-    "D:\\Code\\Repos\\WorkTimeRegistration\\WorkTimeRegistration\\WorkTimeRegistration.csproj": {
+    "D:\\Code\\Repos\\WorkTimeRegistration\\EFDataAccess\\EFDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Repos\\WorkTimeRegistration\\WorkTimeRegistration\\WorkTimeRegistration.csproj",
-        "projectName": "WorkTimeRegistration",
-        "projectPath": "D:\\Code\\Repos\\WorkTimeRegistration\\WorkTimeRegistration\\WorkTimeRegistration.csproj",
+        "projectUniqueName": "D:\\Code\\Repos\\WorkTimeRegistration\\EFDataAccess\\EFDataAccess.csproj",
+        "projectName": "EFDataAccess",
+        "projectPath": "D:\\Code\\Repos\\WorkTimeRegistration\\EFDataAccess\\EFDataAccess.csproj",
         "packagesPath": "C:\\Users\\forna\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Repos\\WorkTimeRegistration\\WorkTimeRegistration\\obj\\",
+        "outputPath": "D:\\Code\\Repos\\WorkTimeRegistration\\EFDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Programms\\VisualStudioShared\\NuGetPackages",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,9 +62,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
